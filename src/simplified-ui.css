@@ -1,0 +1,74 @@
+.lesson-columns{grid-template-columns:minmax(0,1fr)}
+.lesson-heading{display:block;margin:3px 0 18px}
+.lesson-heading h1{margin:0;font-size:clamp(24px,3vw,34px);line-height:1.2}
+.question-card{min-height:0;padding:22px 24px}
+.question-card h2{margin:0;font-size:clamp(19px,2.4vw,26px);line-height:1.35}
+.explain-heading h2,.check-header h2{margin:0;font-size:18px}
+.explain-card>p{font-size:14px;line-height:1.75;margin:12px 0}
+.local-example{display:block;padding:0;background:transparent}
+.local-example summary,.atom-origin-note summary,.atom-data-note summary,.chem-limits summary,.matter-zoom-card details summary{cursor:pointer;color:#7ccbc4;font-size:12px;font-weight:600}
+.local-example p{font-size:13px;line-height:1.6;margin:9px 0 0;color:#aebfbd}
+.check-header{margin-bottom:12px}
+.check-card>p{display:none}
+.lesson-bottom-nav span{display:none}
+.atom-mode-tabs{margin:4px 0 10px}
+.matter-zoom-card{padding:16px}
+.matter-zoom-card p{font-size:13px;line-height:1.65}
+.matter-zoom-card details{padding-top:9px;border-top:1px solid #ffffff16}
+.matter-zoom-card details small{margin-top:8px;font-size:12px;line-height:1.6}
+.matter-state-note{margin:10px 0 2px;padding:11px 12px;border-left:2px solid #72cbbb;border-radius:0 8px 8px 0;background:#102326;color:#c5d7d3;font-size:14px;line-height:1.65}
+.matter-salt-note{padding:10px 12px;border:1px solid #284247;border-radius:8px;background:#101b20;color:#bdceca;font-size:13px;line-height:1.65}
+.matter-salt-note summary{cursor:pointer;color:#79d5ca;font-weight:650}
+.matter-salt-note p{margin:8px 0 0;font-size:13px;line-height:1.65}
+.scene3d-matter .matter-selection-label{top:52px;bottom:auto;right:12px;max-width:min(220px,calc(100% - 24px));font-size:11px;line-height:1.35}
+.scene3d-matter .scene3d-readout{display:none}
+.scene3d-readout>span{display:none}
+.periodic-toolbar>label{font-size:13px}
+.atom-detail-heading h4{font-size:21px}
+.shell-capacity-note{display:block;margin:7px 2px 12px;color:#93aaa9;font-size:14px;line-height:1.55}
+.atom-concepts article>span{display:none}
+.atom-concepts h5{font-size:14px}
+.atom-concepts p{font-size:13px;line-height:1.6}
+.atom-origin-note,.atom-data-note,.chem-limits{font-size:13px;line-height:1.65}
+.atom-origin-note p,.atom-data-note small,.chem-limits p{font-size:13px;line-height:1.65}
+.atom-data-note{display:block;margin:9px 0;padding:10px 12px;border:1px solid #2b3d42;border-radius:7px;background:#141e22;color:#a9bfbe}
+.atom-origin-note summary,.atom-data-note summary,.chem-limits summary{list-style:none}
+.atom-origin-note summary::-webkit-details-marker,.atom-data-note summary::-webkit-details-marker,.chem-limits summary::-webkit-details-marker{display:none}
+.atom-origin-note summary:after,.atom-data-note summary:after,.chem-limits summary:after{content:'＋';float:right;color:#7ccbc4}
+.atom-origin-note[open] summary:after,.atom-data-note[open] summary:after,.chem-limits[open] summary:after{content:'−'}
+.simulation-heading{margin-bottom:8px}
+.simulation-heading h3{font-size:18px}
+.progress-card h3{font-size:19px}
+.progress-card p{font-size:13px}
+.page-footer{justify-content:flex-end}
+.curriculum-note{font-size:13px}
+.curriculum-note summary{cursor:pointer;font-size:13px;font-weight:600;color:#4c6854}
+.curriculum-note p{font-size:13px;line-height:1.65}
+.curriculum-hero:after{display:none}
+.curriculum-track-row>div>.pill-control{display:flex;width:max-content;flex-wrap:nowrap;background:#182328}
+.year-card:nth-child(-n+2) .year-hours{display:none}
+.matter-zoom-stage .scene3d-readout,.scene3d-matter-zoom+.scene3d-legend,.matter-zoom-stage .scene3d-drag{display:none}
+.year-unit small,.year-unit .unit-tag{display:none}
+.year-unit>span:nth-child(2){font-size:13px}
+.year-select>span{display:none}
+.year-select>b{font-size:17px}
+.year-select>small{display:none}
+.glossary-token{position:relative;display:inline}
+.glossary-link{display:inline;padding:0;border:0;border-bottom:1px dotted #74d9ca;border-radius:0;background:transparent;color:#85e0d2;font:inherit;font-weight:600;line-height:inherit;text-decoration:none;cursor:pointer}
+.glossary-link:hover,.glossary-link:focus-visible{color:#c1fff4;border-bottom-style:solid;outline:none}
+.glossary-link:focus-visible{box-shadow:0 2px 0 #b3fff0}
+.glossary-bubble{position:fixed;z-index:1200;display:block;width:min(340px,calc(100vw - 24px));max-height:min(250px,calc(100vh - 24px));overflow:auto;padding:15px 16px 14px;border:1px solid #55b9aa;border-radius:13px;background:linear-gradient(145deg,#142328,#0b1317);box-shadow:0 18px 50px #000b,0 0 22px #38c3ad20;color:#e6f3f1;font-size:14px;line-height:1.55;text-align:left;white-space:normal}
+.glossary-bubble-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:6px;color:#a0f1e3;font-size:16px}
+.glossary-close{flex:0 0 auto;width:28px;height:28px;border:1px solid #44605f;border-radius:50%;background:#1b2b30;color:#d4eae7;font-size:20px;line-height:1;cursor:pointer}
+.glossary-definition,.glossary-example{display:block}
+.glossary-example{margin-top:10px;padding:9px 10px;border-left:2px solid #68d8c8;border-radius:0 7px 7px 0;background:#11272a;color:#c5d9d6;font-size:13px}
+.glossary-example b{display:block;margin-bottom:2px;color:#83dece;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+@media(max-width:560px){
+  .lesson-heading h1{font-size:24px}
+  .question-card{padding:18px}
+  .explain-card>p,.local-example p,.matter-zoom-card p,.atom-concepts p,.atom-origin-note p,.atom-data-note small,.chem-limits p{font-size:14px}
+  .atom-mode-tabs button{font-size:12px;padding:9px 11px}
+  .matter-state-note{font-size:14px}
+  .scene3d-matter .matter-selection-label{top:50px;bottom:auto;right:9px;max-width:min(150px,calc(100% - 18px));font-size:10px}
+  .glossary-bubble{width:min(340px,calc(100vw - 24px));padding:14px;font-size:14px}
+}

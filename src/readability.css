@@ -1,0 +1,255 @@
+/* Readable minimums for instructional text, especially inside the 3D lab. */
+body :is(
+  .eyebrow,.lesson-meta,.question-source,.model-note,.answer-option,.lesson-bottom-nav,
+  .aside-progress,.molecule-caption,.lab-feedback,.redox-equation,.cell-labels,.salt-bridge,
+  .battery,.solution,.year-hours,.inter-topic,.page-footer,.track-note,.mole-heading,.text-link,
+  .scene-live,.scene-tools button,.scene3d-readout span,.scene3d-drag,.scene3d-legend span,
+  .scene3d-legend small,.chem-control-title,.chem-choice-row button,.chem-range,.chem-range > i,
+  .chem-explain-row,.chem-molecule-facts small,.chem-molecule-facts b,.chem-coefficients label > span,
+  .chem-coefficients label > b,.chem-reaction-status,.chem-action,.chem-polarity,.chem-subnote,
+  .chem-limits,.class-button,.nav-button,.breadcrumbs,.searchbox input,.top-profile,.answer-letter,
+  .hero-copy .eyebrow,.hero-bottom,.nav-caption,.brand small,.school-chip small,.sidebar-foot small
+) { font-size: max(12px, 1em) !important; }
+
+.eyebrow,
+.lesson-meta,
+.question-source,
+.model-note,
+.answer-option,
+.lesson-bottom-nav,
+.aside-progress,
+.molecule-caption,
+.lab-feedback,
+.redox-equation,
+.cell-labels,
+.salt-bridge,
+.battery,
+.solution,
+.year-hours,
+.inter-topic,
+.page-footer,
+.track-note,
+.mole-heading,
+.text-link,
+.scene-live,
+.scene-tools button,
+.scene3d-readout span,
+.scene3d-drag,
+.scene3d-legend span,
+.scene3d-legend small,
+.chem-control-title,
+.chem-choice-row button,
+.chem-range,
+.chem-range > i,
+.chem-explain-row,
+.chem-molecule-facts small,
+.chem-molecule-facts b,
+.chem-coefficients label > span,
+.chem-coefficients label > b,
+.chem-reaction-status,
+.chem-action,
+.chem-polarity,
+.chem-subnote,
+.chem-limits,
+.class-button,
+.nav-button,
+.breadcrumbs,
+.searchbox input,
+.top-profile,
+.answer-letter {
+  font-size: max(12px, 1em);
+}
+
+.lesson-meta,
+.question-source,
+.scene-live,
+.chem-control-title,
+.chem-range > i,
+.scene3d-legend span,
+.scene3d-legend small,
+.scene3d-readout span,
+.scene3d-drag {
+  letter-spacing: 0.04em;
+}
+
+.lesson-meta,
+.question-source,
+.scene-live,
+.chem-control-title,
+.scene3d-readout span,
+.scene3d-drag {
+  font-size: max(11px, 1em);
+}
+
+.scene3d-readout b { font-size: clamp(16px, 1.15rem, 20px); }
+.scene3d-legend { min-height: 46px; gap: 15px; }
+.scene3d-legend span i { width: 10px; height: 10px; flex: 0 0 10px; }
+.scene3d-toolbar { min-height: 54px; }
+.scene-tools button { padding: 9px 12px; }
+.chem-control-group { gap: 18px; }
+.chem-choice-row button,
+.element-3d-picker button,
+.chem-action { min-height: 42px; }
+.element-3d-picker button { font-size: 12px; }
+.chem-range input { min-height: 28px; }
+.chem-explain-row { font-size: 14px; }
+.chem-explain-row b { font-size: 13px; }
+.chem-limits { font-size: 13px; }
+.lesson-meta { gap: 12px; line-height: 1.6; }
+.question-source { line-height: 1.6; }
+.answer-option { font-size: 14px; padding: 12px; }
+.model-note,.chem-subnote { font-size: 13px; line-height: 1.65; }
+.molecule-caption { font-size: 12px; }
+.chem-equation-3d { font-size: clamp(17px, 2vw, 22px); }
+.matter-focus-label { font-size: 11px !important; }
+.matter-composition-label { font-size: 11px !important; line-height: 1.45; }
+.matter-selection-label { font-size: 11px !important; max-width: 200px !important; }
+.matter-zoom-stage .scene3d-readout { bottom: 116px !important; }
+.matter-zoom-stage .scene3d-drag { bottom: 14px !important; }
+.periodic-toolbar { font-size: 12px !important; }
+.periodic-element { min-height: 72px; }
+.periodic-grid,.periodic-series { min-width: 990px; }
+.periodic-element small { font-size: 10px !important; }
+.periodic-element b { font-size: 16px !important; }
+.periodic-element span {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px !important;
+  line-height: 1.1;
+  text-align: center;
+}
+.atom-detail-heading small { font-size: 12px !important; }
+.atom-stat-grid small { font-size: 10px !important; }
+.atom-stat-grid b { font-size: 14px !important; }
+.atom-concepts article > span { font-size: 11px !important; }
+.atom-concepts h5 { font-size: 14px !important; }
+.atom-concepts p { font-size: 13px !important; line-height: 1.6 !important; }
+.atom-concepts article > strong { font-size: 12px !important; }
+.atom-origin-note > span { font-size: 12px !important; }
+.atom-origin-note p { font-size: 13px !important; line-height: 1.65 !important; }
+.atom-origin-note small { font-size: 12px !important; line-height: 1.55 !important; }
+.matter-zoom-card p { font-size: 14px !important; line-height: 1.65 !important; }
+.matter-zoom-card > small { font-size: 12px !important; line-height: 1.55 !important; }
+.check-card > p { font-size: 13px !important; line-height: 1.55 !important; }
+.explain-card > p { font-size: 14px !important; line-height: 1.7 !important; }
+.local-example p { font-size: 13px !important; line-height: 1.55 !important; }
+.answer-feedback p { font-size: 13px !important; line-height: 1.55 !important; }
+.safety-card p,.aside-note p { font-size: 12px !important; line-height: 1.55 !important; }
+.card-meta span { font-size: 12px !important; }
+.card-copy > p { font-size: 14px !important; line-height: 1.5 !important; }
+.curriculum-track-row p,.curriculum-note p,.source-note p,.interdisciplinary-intro p { font-size: 14px !important; line-height: 1.65 !important; }
+.year-card { background: #151e23 !important; border-color: #29373e !important; }
+.year-select { background: #182328 !important; border-color: #304047 !important; }
+.year-select > span,.year-hours { font-size: 12px !important; color: #9aabb1 !important; }
+.year-select > b { font-size: 16px !important; color: #e8f1f3 !important; }
+.year-select > small { font-size: 13px !important; color: #a2b2b6 !important; }
+.year-unit { border-color: #2d3b41 !important; }
+.year-unit > span:nth-child(2) { font-size: 13px !important; color: #c5d1d5 !important; line-height: 1.35; }
+.year-unit small { font-size: 11px !important; color: #91a5a8 !important; }
+.atom-data-note,.periodic-scroll-hint { font-size: 12px !important; line-height: 1.5; }
+.atom-concepts > * { font-size: 14px; line-height: 1.6; }
+
+@media (max-width: 720px) {
+  body :is(
+    .eyebrow,.lesson-meta,.question-source,.model-note,.answer-option,.lesson-bottom-nav,
+    .aside-progress,.molecule-caption,.lab-feedback,.redox-equation,.cell-labels,.salt-bridge,
+    .battery,.solution,.year-hours,.inter-topic,.page-footer,.track-note,.mole-heading,.text-link,
+    .scene-live,.scene-tools button,.scene3d-readout span,.scene3d-drag,.scene3d-legend span,
+    .scene3d-legend small,.chem-control-title,.chem-choice-row button,.chem-range,.chem-range > i,
+    .chem-explain-row,.chem-molecule-facts small,.chem-molecule-facts b,.chem-coefficients label > span,
+    .chem-coefficients label > b,.chem-reaction-status,.chem-action,.chem-polarity,.chem-subnote,
+    .chem-limits,.class-button,.nav-button,.breadcrumbs,.searchbox input,.top-profile,.answer-letter,
+    .hero-copy .eyebrow,.hero-bottom,.nav-caption,.brand small,.school-chip small,.sidebar-foot small
+  ) { font-size: max(13px, 1em) !important; }
+  .scene3d-stage { height: min(82vh, 590px); min-height: 440px; }
+  .scene3d-toolbar { padding: 8px 12px; }
+  .scene-live,
+  .scene-tools button,
+  .chem-control-title { font-size: 12px; }
+  .scene3d-readout { left: 14px; bottom: 15px; max-width: calc(100% - 28px); }
+  .scene3d-readout b { font-size: 17px; }
+  .scene3d-readout span { font-size: 11px; line-height: 1.5; }
+  .scene3d-drag { right: 12px; bottom: 12px; font-size: 10px; }
+  .scene3d-legend { gap: 10px 14px; padding: 10px 12px; }
+  .scene3d-legend span,
+  .scene3d-legend small { font-size: 11px; }
+  .chem-control-group { grid-template-columns: 1fr; gap: 9px; }
+  .chem-choice-row { gap: 8px; }
+  .chem-choice-row button { font-size: 14px; padding: 9px 12px; }
+  .chem-range { font-size: 14px; }
+  .chem-range > span b { font-size: 13px; }
+  .chem-range > i { font-size: 11px; }
+  .chem-explain-row { font-size: 14px; }
+  .chem-explain-row b { font-size: 13px; }
+  .chem-molecule-facts small { font-size: 11px; }
+  .chem-molecule-facts b { font-size: 14px; }
+  .chem-equation-3d { font-size: 17px; line-height: 1.6; }
+  .chem-coefficients label > span,
+  .chem-coefficients label > b { font-size: 13px; }
+  .chem-reaction-status,.chem-action,.chem-polarity,.chem-limits { font-size: 13px; }
+  .lesson-meta,.question-source,.year-hours,.page-footer,.track-note { font-size: 11px; }
+  .model-note,.chem-subnote { font-size: 13px; }
+  .answer-option { font-size: 14px; min-height: 48px; }
+  .topbar { padding-left: 16px; padding-right: 16px; }
+  .page-content { padding-left: 18px; padding-right: 18px; }
+  .hero-card { min-height: 470px; padding-bottom: 66px; }
+  .hero-copy { max-width: min(100%, 340px); }
+  .hero-copy > p { max-width: 100%; font-size: 14px; }
+  .hero-art { top: 195px; right: 0; transform: scale(.62); transform-origin: top right; opacity: .58; }
+  .hero-actions { position: relative; z-index: 2; }
+  .hero-bottom { min-height: 64px; flex-direction: column; align-items: center; justify-content: center; gap: 5px; line-height: 1.35; letter-spacing: .55px; text-align: center; }
+  .hero-bottom > * { flex: 0 1 auto; }
+  .scene3d-toolbar { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px 10px; }
+  .scene-live { flex: 1 0 100%; min-width: 0; line-height: 1.35; white-space: nowrap; }
+  .scene-tools { flex: 1 0 100%; display: flex; justify-content: flex-end; }
+  .scene-tools button { white-space: nowrap; }
+  .scene3d-readout { left: 14px; right: 14px; bottom: 108px; max-width: none; }
+  .scene3d-readout b { font-size: 16px; }
+  .scene3d-readout span { max-width: 100%; font-size: 10px; line-height: 1.4; }
+  .scene3d-drag { left: 14px; right: 14px; bottom: 14px; max-width: none; font-size: 9px; line-height: 1.35; text-align: left; }
+  .atom-stage .scene3d-readout { bottom: 14px !important; }
+  .atom-stage .scene3d-drag { display: none; }
+  .atom-callouts span { font-size: 10px !important; line-height: 1.25; padding: 4px 6px !important; }
+  .scene3d-ph .scene3d-readout { top: 12px; right: 14px; bottom: auto !important; left: 14px; max-width: none; }
+  .scene3d-ph .scene3d-drag { display: none; }
+  .matter-zoom-stage .scene3d-readout,.matter-zoom-stage .scene3d-drag { display: none !important; }
+  .matter-zoom-stage .scene3d-readout { bottom: 126px !important; }
+  .matter-zoom-stage .scene3d-drag { bottom: 16px !important; }
+  .matter-focus-label { top: 42px; max-width: calc(100% - 28px); font-size: 10px !important; }
+  .matter-composition-label { top: 86px; max-width: calc(100% - 28px); font-size: 10px !important; }
+  .matter-selection-label { right: 10px; bottom: 74px; max-width: 150px !important; font-size: 10px !important; }
+  .periodic-grid { grid-template-rows: repeat(7, 72px); }
+  .periodic-element b { font-size: 17px !important; }
+  .periodic-element small { font-size: 10px !important; }
+  .periodic-element span { font-size: 10px !important; }
+  .atom-stat-grid small { font-size: 10px !important; }
+  .atom-stat-grid b { font-size: 14px !important; }
+  .atom-concepts { grid-template-columns: 1fr; }
+  .scene3d-legend { height: auto; min-height: 48px; flex-wrap: wrap; align-items: center; }
+  .scene3d-legend small { display: block; width: 100%; flex: 1 0 100%; margin: 0; line-height: 1.4; text-align: center; }
+}
+
+@media (max-width: 420px) {
+  .scene3d-stage { height: 500px; min-height: 460px; }
+  .scene3d-readout b { font-size: 15px; }
+  .scene3d-readout { bottom: 132px; }
+  .matter-zoom-stage .scene3d-readout { bottom: 136px !important; }
+  .scene3d-readout span { font-size: 9px; }
+  .scene3d-drag { left: 14px; right: 14px; max-width: none; font-size: 9px; text-align: left; }
+  .matter-zoom-stage .scene3d-drag { bottom: 16px !important; }
+  .scene3d-legend { gap: 9px 11px; }
+  .scene3d-legend span { font-size: 10px; }
+  .chem-molecule-facts { grid-template-columns: 1fr; }
+  .chem-equation-3d { font-size: 16px; }
+  .lesson-meta { gap: 8px; }
+}
+
+@media (min-width: 1100px) {
+  .page-content { width: min(1320px, 100%); padding-left: clamp(42px, 5vw, 72px); padding-right: clamp(42px, 5vw, 72px); }
+  .answer-option { font-size: 15px; }
+  .model-note,.chem-subnote,.chem-limits { font-size: 14px; }
+  .scene3d-legend span,.scene3d-legend small { font-size: 12px; }
+}
